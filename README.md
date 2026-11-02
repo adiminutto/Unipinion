@@ -1,12 +1,5 @@
 # Unipinion — High-Fidelity Prototype
 
-A clickable, high-fidelity web prototype of **Unipinion**, a campus rating platform
-for university students. Built for usability testing — no backend, no build step,
-no dependencies. All state (sign-in, ratings, profile, submitted items) is stored
-in the browser's `localStorage`, so each participant gets their own clean slate.
-
-## Flows included
-
 - **Dashboard** — centered search bar, category/sub-category filters, recommended
   column (personalised by profile interests), new/trending column, search results
   occupying half the page
@@ -30,5 +23,3 @@ Object.keys(localStorage)
   .forEach(k => localStorage.removeItem(k));
 location.reload();
 ```
-
-Or simply have each participant use a fresh private/incognito window.
