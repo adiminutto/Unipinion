@@ -20,26 +20,6 @@ in the browser's `localStorage`, so each participant gets their own clean slate.
   names, and cannot view Classes; "verification" is simulated (any name + ID works)
 - **Light / dark theme toggle** (persisted)
 
-## Run locally
-
-Just open `index.html` in a browser — no server required.
-
-## Deploy to GitHub Pages (free, 24/7)
-
-1. Create a **public** repository on GitHub (e.g. `unipinion`).
-2. Push this folder to it:
-   ```
-   git remote add origin https://github.com/<your-username>/unipinion.git
-   git push -u origin main
-   ```
-3. On GitHub: **Settings → Pages → Build and deployment**
-   - Source: *Deploy from a branch*
-   - Branch: `main`, folder `/ (root)` → **Save**
-4. After ~1 minute your prototype is live at:
-   `https://<your-username>.github.io/unipinion/`
-
-Every future `git push` to `main` redeploys automatically.
-
 ## Resetting between usability-test participants
 
 Open the browser dev tools console and run:
